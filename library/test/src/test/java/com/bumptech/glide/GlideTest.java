@@ -186,6 +186,7 @@ public class GlideTest {
     MemoryCategory memoryCategory = MemoryCategory.NORMAL;
     Glide glide = buildGlideWithFakePools();
     glide.setMemoryCategory(memoryCategory);
+    // de
 
     verify(memoryCache).setSizeMultiplier(eq(memoryCategory.getMultiplier()));
     verify(bitmapPool).setSizeMultiplier(eq(memoryCategory.getMultiplier()));
