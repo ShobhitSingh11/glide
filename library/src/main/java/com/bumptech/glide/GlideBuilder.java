@@ -77,6 +77,7 @@ public final class GlideBuilder {
   @NonNull
   public GlideBuilder setBitmapPool(@Nullable BitmapPool bitmapPool) {
     this.bitmapPool = bitmapPool;
+    // ererfrefr
     return this;
   }
 
