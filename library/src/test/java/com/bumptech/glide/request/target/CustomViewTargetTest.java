@@ -219,7 +219,7 @@ public class CustomViewTargetTest {
     LayoutParams params =
         new FrameLayout.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
     view.setLayoutParams(params);
-
+    // rfrf
     setDisplayDimens(300, 400);
 
     target.getSize(cb);
