@@ -34,6 +34,7 @@ public abstract class AppGlideModule extends LibraryGlideModule implements Appli
    */
   public boolean isManifestParsingEnabled() {
     return true;
+    // dc
   }
 
   @Override
