@@ -70,7 +70,7 @@ public class ListPreloader<T> implements AbsListView.OnScrollListener {
      */
     @NonNull
     List<U> getPreloadItems(int position);
-
+    // qs
     /**
      * Returns a {@link RequestBuilder} for a given item on which {@link
      * RequestBuilder#load(Object)}} has been called or {@code null} if no valid load can be
