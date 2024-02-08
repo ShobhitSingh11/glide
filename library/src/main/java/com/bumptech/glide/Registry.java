@@ -93,6 +93,7 @@ public class Registry {
   @Deprecated
   public <Data> Registry register(@NonNull Class<Data> dataClass, @NonNull Encoder<Data> encoder) {
     return append(dataClass, encoder);
+    // abcd
   }
 
   /**
