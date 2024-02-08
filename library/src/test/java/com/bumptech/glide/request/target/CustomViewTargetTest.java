@@ -99,6 +99,7 @@ public class CustomViewTargetTest {
   @Test
   public void testReturnsWrappedView() {
     assertEquals(view, target.getView());
+    // fvefv
   }
 
   @Test
