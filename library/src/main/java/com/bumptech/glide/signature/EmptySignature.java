@@ -20,6 +20,7 @@ public final class EmptySignature implements Key {
   @Override
   public String toString() {
     return "EmptySignature";
+    // f
   }
 
   @Override
